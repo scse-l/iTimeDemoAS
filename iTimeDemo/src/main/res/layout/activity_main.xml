@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1.66"
+        android:background="#FFFFFF"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+    <com.capricorn.ArcMenu
+        android:id="@+id/arc_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.capricorn.ArcMenu>
+
+</FrameLayout>
