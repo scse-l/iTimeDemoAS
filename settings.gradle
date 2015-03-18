@@ -1,2 +1,2 @@
-include ':arcMenuLibrary'
+include ':arcMenuLibrary', ':androidWeekView'
 include ':iTimeDemo'

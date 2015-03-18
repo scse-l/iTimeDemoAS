@@ -319,6 +319,16 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int colorSwitchThumbNormal=0x7f01009d;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int columnGap=0x7f0100b3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -367,6 +377,26 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int customNavigationLayout=0x7f010012;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int dayBackgroundColor=0x7f0100b7;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>length_short</code></td><td>1</td><td></td></tr>
+<tr><td><code>length_long</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int dayNameLength=0x7f0100bf;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -461,10 +491,65 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int elevation=0x7f01001d;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int eventMarginVertical=0x7f0100c1;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int eventPadding=0x7f0100bd;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int eventTextColor=0x7f0100bc;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int eventTextSize=0x7f0100b0;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int expandActivityOverflowButtonDrawable=0x7f010021;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>sunday</code></td><td>1</td><td></td></tr>
+<tr><td><code>monday</code></td><td>2</td><td></td></tr>
+<tr><td><code>tuesday</code></td><td>3</td><td></td></tr>
+<tr><td><code>wednesday</code></td><td>4</td><td></td></tr>
+<tr><td><code>thursday</code></td><td>5</td><td></td></tr>
+<tr><td><code>friday</code></td><td>6</td><td></td></tr>
+<tr><td><code>saturday</code></td><td>7</td><td></td></tr>
+</table>
+         */
+        public static final int firstDayOfWeek=0x7f0100ad;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a floating point value, such as "<code>1.2</code>".
@@ -484,6 +569,53 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int goIcon=0x7f01003a;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int headerColumnBackground=0x7f0100be;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int headerColumnPadding=0x7f0100b1;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int headerColumnTextColor=0x7f0100b4;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int headerRowBackgroundColor=0x7f0100b6;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int headerRowPadding=0x7f0100b2;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -510,6 +642,35 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int homeLayout=0x7f010013;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int hourHeight=0x7f0100ae;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int hourSeparatorColor=0x7f0100b8;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int hourSeparatorHeight=0x7f0100bb;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -680,6 +841,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
          */
         public static final int navigationMode=0x7f010007;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int noOfVisibleDays=0x7f0100b5;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -688,6 +857,16 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int overlapAnchor=0x7f010033;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int overlappingEventGap=0x7f0100c0;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -961,6 +1140,16 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
         public static final int textColorSearchUrl=0x7f010087;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int textSize=0x7f0100af;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1056,6 +1245,24 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a floating point value, such as "<code>1.2</code>".
          */
         public static final int toDegrees=0x7f010006;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int todayBackgroundColor=0x7f0100b9;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int todayHeaderTextColor=0x7f0100ba;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1158,6 +1365,14 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int windowFixedWidthMinor=0x7f010051;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int xScrollingSpeed=0x7f0100c2;
     }
     public static final class bool {
         public static final int abc_action_bar_embed_tabs=0x7f050000;
@@ -1337,72 +1552,82 @@ containing a value of this type.
         public static final int ic_launcher=0x7f02003d;
     }
     public static final class id {
-        public static final int action_bar=0x7f080031;
+        public static final int action_bar=0x7f08003a;
         public static final int action_bar_activity_content=0x7f080000;
-        public static final int action_bar_container=0x7f080030;
-        public static final int action_bar_root=0x7f08002c;
+        public static final int action_bar_container=0x7f080039;
+        public static final int action_bar_root=0x7f080035;
         public static final int action_bar_spinner=0x7f080001;
-        public static final int action_bar_subtitle=0x7f08001f;
-        public static final int action_bar_title=0x7f08001e;
-        public static final int action_context_bar=0x7f080032;
+        public static final int action_bar_subtitle=0x7f080028;
+        public static final int action_bar_title=0x7f080027;
+        public static final int action_context_bar=0x7f08003b;
         public static final int action_menu_divider=0x7f080002;
         public static final int action_menu_presenter=0x7f080003;
-        public static final int action_mode_bar=0x7f08002e;
-        public static final int action_mode_bar_stub=0x7f08002d;
-        public static final int action_mode_close_button=0x7f080020;
-        public static final int activity_chooser_view_content=0x7f080021;
+        public static final int action_mode_bar=0x7f080037;
+        public static final int action_mode_bar_stub=0x7f080036;
+        public static final int action_mode_close_button=0x7f080029;
+        public static final int activity_chooser_view_content=0x7f08002a;
         public static final int always=0x7f080016;
-        public static final int arc_menu=0x7f080040;
+        public static final int arc_menu=0x7f080049;
         public static final int beginning=0x7f080013;
-        public static final int checkbox=0x7f080029;
+        public static final int checkbox=0x7f080032;
         public static final int collapseActionView=0x7f080017;
-        public static final int control_hint=0x7f080043;
-        public static final int control_layout=0x7f080042;
-        public static final int decor_content_parent=0x7f08002f;
-        public static final int default_activity_button=0x7f080024;
+        public static final int control_hint=0x7f08004c;
+        public static final int control_layout=0x7f08004b;
+        public static final int decor_content_parent=0x7f080038;
+        public static final int default_activity_button=0x7f08002d;
         public static final int dialog=0x7f08001b;
         public static final int disableHome=0x7f08000c;
         public static final int dropdown=0x7f08001c;
-        public static final int edit_query=0x7f080033;
+        public static final int edit_query=0x7f08003c;
         public static final int end=0x7f080014;
-        public static final int expand_activities_button=0x7f080022;
-        public static final int expanded_menu=0x7f080028;
+        public static final int expand_activities_button=0x7f08002b;
+        public static final int expanded_menu=0x7f080031;
+        public static final int friday=0x7f08001e;
         public static final int home=0x7f080004;
         public static final int homeAsUp=0x7f08000d;
-        public static final int icon=0x7f080026;
+        public static final int icon=0x7f08002f;
         public static final int ifRoom=0x7f080018;
-        public static final int image=0x7f080023;
-        public static final int item_layout=0x7f080041;
+        public static final int image=0x7f08002c;
+        public static final int item_layout=0x7f08004a;
+        public static final int length_long=0x7f080025;
+        public static final int length_short=0x7f080026;
         public static final int listMode=0x7f080009;
-        public static final int list_item=0x7f080025;
-        public static final int main_pager=0x7f08003f;
+        public static final int list_item=0x7f08002e;
+        public static final int main_pager=0x7f080048;
         public static final int middle=0x7f080015;
+        public static final int monday=0x7f08001f;
         public static final int never=0x7f080019;
         public static final int none=0x7f08000e;
         public static final int normal=0x7f08000a;
         public static final int progress_circular=0x7f080005;
         public static final int progress_horizontal=0x7f080006;
-        public static final int radio=0x7f08002b;
-        public static final int search_badge=0x7f080035;
-        public static final int search_bar=0x7f080034;
-        public static final int search_button=0x7f080036;
-        public static final int search_close_btn=0x7f08003b;
-        public static final int search_edit_frame=0x7f080037;
-        public static final int search_go_btn=0x7f08003d;
-        public static final int search_mag_icon=0x7f080038;
-        public static final int search_plate=0x7f080039;
-        public static final int search_src_text=0x7f08003a;
-        public static final int search_voice_btn=0x7f08003e;
-        public static final int shortcut=0x7f08002a;
+        public static final int radio=0x7f080034;
+        public static final int saturday=0x7f080020;
+        public static final int search_badge=0x7f08003e;
+        public static final int search_bar=0x7f08003d;
+        public static final int search_button=0x7f08003f;
+        public static final int search_close_btn=0x7f080044;
+        public static final int search_edit_frame=0x7f080040;
+        public static final int search_go_btn=0x7f080046;
+        public static final int search_mag_icon=0x7f080041;
+        public static final int search_plate=0x7f080042;
+        public static final int search_src_text=0x7f080043;
+        public static final int search_voice_btn=0x7f080047;
+        public static final int shortcut=0x7f080033;
         public static final int showCustom=0x7f08000f;
         public static final int showHome=0x7f080010;
         public static final int showTitle=0x7f080011;
         public static final int split_action_bar=0x7f080007;
-        public static final int submit_area=0x7f08003c;
+        public static final int submit_area=0x7f080045;
+        public static final int sunday=0x7f080021;
         public static final int tabMode=0x7f08000b;
-        public static final int title=0x7f080027;
+        public static final int thursday=0x7f080022;
+        public static final int title=0x7f080030;
+        public static final int tuesday=0x7f080023;
         public static final int up=0x7f080008;
         public static final int useLogo=0x7f080012;
+        public static final int wednesday=0x7f080024;
+        public static final int weekView=0x7f08004d;
         public static final int withText=0x7f08001a;
         public static final int wrap_content=0x7f08001d;
     }
@@ -5282,5 +5507,412 @@ containing a value of this type.
           @attr name android:layout
         */
         public static final int ViewStubCompat_android_layout = 1;
+        /** Attributes that can be used with a WeekView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #WeekView_columnGap com.colorfulmoment.itimedemo:columnGap}</code></td><td></td></tr>
+           <tr><td><code>{@link #WeekView_dayBackgroundColor com.colorfulmoment.itimedemo:dayBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #WeekView_dayNameLength com.colorfulmoment.itimedemo:dayNameLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #WeekView_eventMarginVertical com.colorfulmoment.itimedemo:eventMarginVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #WeekView_eventPadding com.colorfulmoment.itimedemo:eventPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #WeekView_eventTextColor com.colorfulmoment.itimedemo:eventTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #WeekView_eventTextSize com.colorfulmoment.itimedemo:eventTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #WeekView_firstDayOfWeek com.colorfulmoment.itimedemo:firstDayOfWeek}</code></td><td></td></tr>
+           <tr><td><code>{@link #WeekView_headerColumnBackground com.colorfulmoment.itimedemo:headerColumnBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WeekView_headerColumnPadding com.colorfulmoment.itimedemo:headerColumnPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #WeekView_headerColumnTextColor com.colorfulmoment.itimedemo:headerColumnTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #WeekView_headerRowBackgroundColor com.colorfulmoment.itimedemo:headerRowBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #WeekView_headerRowPadding com.colorfulmoment.itimedemo:headerRowPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #WeekView_hourHeight com.colorfulmoment.itimedemo:hourHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #WeekView_hourSeparatorColor com.colorfulmoment.itimedemo:hourSeparatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #WeekView_hourSeparatorHeight com.colorfulmoment.itimedemo:hourSeparatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #WeekView_noOfVisibleDays com.colorfulmoment.itimedemo:noOfVisibleDays}</code></td><td></td></tr>
+           <tr><td><code>{@link #WeekView_overlappingEventGap com.colorfulmoment.itimedemo:overlappingEventGap}</code></td><td></td></tr>
+           <tr><td><code>{@link #WeekView_textSize com.colorfulmoment.itimedemo:textSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #WeekView_todayBackgroundColor com.colorfulmoment.itimedemo:todayBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #WeekView_todayHeaderTextColor com.colorfulmoment.itimedemo:todayHeaderTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #WeekView_xScrollingSpeed com.colorfulmoment.itimedemo:xScrollingSpeed}</code></td><td></td></tr>
+           </table>
+           @see #WeekView_columnGap
+           @see #WeekView_dayBackgroundColor
+           @see #WeekView_dayNameLength
+           @see #WeekView_eventMarginVertical
+           @see #WeekView_eventPadding
+           @see #WeekView_eventTextColor
+           @see #WeekView_eventTextSize
+           @see #WeekView_firstDayOfWeek
+           @see #WeekView_headerColumnBackground
+           @see #WeekView_headerColumnPadding
+           @see #WeekView_headerColumnTextColor
+           @see #WeekView_headerRowBackgroundColor
+           @see #WeekView_headerRowPadding
+           @see #WeekView_hourHeight
+           @see #WeekView_hourSeparatorColor
+           @see #WeekView_hourSeparatorHeight
+           @see #WeekView_noOfVisibleDays
+           @see #WeekView_overlappingEventGap
+           @see #WeekView_textSize
+           @see #WeekView_todayBackgroundColor
+           @see #WeekView_todayHeaderTextColor
+           @see #WeekView_xScrollingSpeed
+         */
+        public static final int[] WeekView = {
+            0x7f0100ad, 0x7f0100ae, 0x7f0100af, 0x7f0100b0,
+            0x7f0100b1, 0x7f0100b2, 0x7f0100b3, 0x7f0100b4,
+            0x7f0100b5, 0x7f0100b6, 0x7f0100b7, 0x7f0100b8,
+            0x7f0100b9, 0x7f0100ba, 0x7f0100bb, 0x7f0100bc,
+            0x7f0100bd, 0x7f0100be, 0x7f0100bf, 0x7f0100c0,
+            0x7f0100c1, 0x7f0100c2
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#columnGap}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.colorfulmoment.itimedemo:columnGap
+        */
+        public static final int WeekView_columnGap = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#dayBackgroundColor}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.colorfulmoment.itimedemo:dayBackgroundColor
+        */
+        public static final int WeekView_dayBackgroundColor = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#dayNameLength}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>length_short</code></td><td>1</td><td></td></tr>
+<tr><td><code>length_long</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.colorfulmoment.itimedemo:dayNameLength
+        */
+        public static final int WeekView_dayNameLength = 18;
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#eventMarginVertical}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.colorfulmoment.itimedemo:eventMarginVertical
+        */
+        public static final int WeekView_eventMarginVertical = 20;
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#eventPadding}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.colorfulmoment.itimedemo:eventPadding
+        */
+        public static final int WeekView_eventPadding = 16;
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#eventTextColor}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.colorfulmoment.itimedemo:eventTextColor
+        */
+        public static final int WeekView_eventTextColor = 15;
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#eventTextSize}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.colorfulmoment.itimedemo:eventTextSize
+        */
+        public static final int WeekView_eventTextSize = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#firstDayOfWeek}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>sunday</code></td><td>1</td><td></td></tr>
+<tr><td><code>monday</code></td><td>2</td><td></td></tr>
+<tr><td><code>tuesday</code></td><td>3</td><td></td></tr>
+<tr><td><code>wednesday</code></td><td>4</td><td></td></tr>
+<tr><td><code>thursday</code></td><td>5</td><td></td></tr>
+<tr><td><code>friday</code></td><td>6</td><td></td></tr>
+<tr><td><code>saturday</code></td><td>7</td><td></td></tr>
+</table>
+          @attr name com.colorfulmoment.itimedemo:firstDayOfWeek
+        */
+        public static final int WeekView_firstDayOfWeek = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#headerColumnBackground}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.colorfulmoment.itimedemo:headerColumnBackground
+        */
+        public static final int WeekView_headerColumnBackground = 17;
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#headerColumnPadding}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.colorfulmoment.itimedemo:headerColumnPadding
+        */
+        public static final int WeekView_headerColumnPadding = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#headerColumnTextColor}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.colorfulmoment.itimedemo:headerColumnTextColor
+        */
+        public static final int WeekView_headerColumnTextColor = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#headerRowBackgroundColor}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.colorfulmoment.itimedemo:headerRowBackgroundColor
+        */
+        public static final int WeekView_headerRowBackgroundColor = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#headerRowPadding}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.colorfulmoment.itimedemo:headerRowPadding
+        */
+        public static final int WeekView_headerRowPadding = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#hourHeight}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.colorfulmoment.itimedemo:hourHeight
+        */
+        public static final int WeekView_hourHeight = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#hourSeparatorColor}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.colorfulmoment.itimedemo:hourSeparatorColor
+        */
+        public static final int WeekView_hourSeparatorColor = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#hourSeparatorHeight}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.colorfulmoment.itimedemo:hourSeparatorHeight
+        */
+        public static final int WeekView_hourSeparatorHeight = 14;
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#noOfVisibleDays}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.colorfulmoment.itimedemo:noOfVisibleDays
+        */
+        public static final int WeekView_noOfVisibleDays = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#overlappingEventGap}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.colorfulmoment.itimedemo:overlappingEventGap
+        */
+        public static final int WeekView_overlappingEventGap = 19;
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#textSize}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.colorfulmoment.itimedemo:textSize
+        */
+        public static final int WeekView_textSize = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#todayBackgroundColor}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.colorfulmoment.itimedemo:todayBackgroundColor
+        */
+        public static final int WeekView_todayBackgroundColor = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#todayHeaderTextColor}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.colorfulmoment.itimedemo:todayHeaderTextColor
+        */
+        public static final int WeekView_todayHeaderTextColor = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.colorfulmoment.itimedemo.R.attr#xScrollingSpeed}
+          attribute's value can be found in the {@link #WeekView} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.colorfulmoment.itimedemo:xScrollingSpeed
+        */
+        public static final int WeekView_xScrollingSpeed = 21;
     };
 }

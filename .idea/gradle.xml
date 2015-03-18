@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/androidWeekView" />
             <option value="$PROJECT_DIR$/arcMenuLibrary" />
             <option value="$PROJECT_DIR$/iTimeDemo" />
           </set>

@@ -22,9 +22,9 @@ public final class R {
 		public static final int composer_icn_plus_pressed = 0x7f020039;
 	}
 	public static final class id {
-		public static final int control_hint = 0x7f080043;
-		public static final int control_layout = 0x7f080042;
-		public static final int item_layout = 0x7f080041;
+		public static final int control_hint = 0x7f08004c;
+		public static final int control_layout = 0x7f08004b;
+		public static final int item_layout = 0x7f08004a;
 	}
 	public static final class layout {
 		public static final int arc_menu = 0x7f030019;

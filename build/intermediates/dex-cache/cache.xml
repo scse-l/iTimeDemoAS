@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/aa/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-9e6db2468150b2451a7ca4b2ff0579bf3d7f0a1a.jar" />
+    </item>
+    <item
+        jar="/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/build/intermediates/exploded-aar/iTimeDemo/androidWeekView/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3b900d4dee46fd5fb2964fc4cbf37b421c0909fb">
+        <dex dex="/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/build/intermediates/pre-dexed/debug/classes-2daf6d4e783ca9cb1770c05533e181ac13c7858b.jar" />
+    </item>
+    <item
+        jar="/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/build/intermediates/exploded-aar/iTimeDemo/arcMenuLibrary/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4ef386120abee81b343cafe4e74c8787d2aad549">
+        <dex dex="/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/build/intermediates/pre-dexed/debug/classes-5959d51fbc44af19b6cfa05438f56b6a28dfd21f.jar" />
+    </item>
+    <item
+        jar="/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/build/intermediates/pre-dexed/debug/classes-93ae84847f916502fe2ea15ab6ef3972fa956d3f.jar" />
+    </item>
+    <item
+        jar="/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-efde163d1ba37c7f278e5817b6dace5c5e8df564.jar" />
+    </item>
+    <item
+        jar="/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/build/intermediates/pre-dexed/debug/classes-f3dd02fc68ecff555adbb87ebbe8f3afa85697f3.jar" />
+    </item>
+
+</items>

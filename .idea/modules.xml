@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/androidWeekView/androidWeekView.iml" filepath="$PROJECT_DIR$/androidWeekView/androidWeekView.iml" />
       <module fileurl="file://$PROJECT_DIR$/arcMenuLibrary/arcMenuLibrary.iml" filepath="$PROJECT_DIR$/arcMenuLibrary/arcMenuLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/iTimeDemo.iml" filepath="$PROJECT_DIR$/iTimeDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/iTimeDemo/iTimeDemo-iTimeDemo.iml" filepath="$PROJECT_DIR$/iTimeDemo/iTimeDemo-iTimeDemo.iml" />
