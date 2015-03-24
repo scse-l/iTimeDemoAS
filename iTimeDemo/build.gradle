@@ -21,5 +21,6 @@ android {
 dependencies {
     compile project(':arcMenuLibrary')
     compile 'com.android.support:appcompat-v7:21.0.3'
+    //compile 'com.android.support:appcompat-v7:19.+'
     compile project(':androidWeekView')
 }

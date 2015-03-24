@@ -1621,13 +1621,14 @@ containing a value of this type.
         public static final int submit_area=0x7f080045;
         public static final int sunday=0x7f080021;
         public static final int tabMode=0x7f08000b;
+        public static final int textView=0x7f08004d;
         public static final int thursday=0x7f080022;
         public static final int title=0x7f080030;
         public static final int tuesday=0x7f080023;
         public static final int up=0x7f080008;
         public static final int useLogo=0x7f080012;
         public static final int wednesday=0x7f080024;
-        public static final int weekView=0x7f08004d;
+        public static final int weekView=0x7f08004e;
         public static final int withText=0x7f08001a;
         public static final int wrap_content=0x7f08001d;
     }

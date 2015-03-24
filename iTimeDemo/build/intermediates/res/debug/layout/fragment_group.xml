@@ -11,5 +11,16 @@
         android:layout_height="match_parent"
         android:text="@string/this_is_3rd_page" />
 
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"></FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView"
+        android:layout_gravity="right|top" />
+
 </FrameLayout>
-<!-- From: file:/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/src/main/res/layout/fragment_group.xml -->
+<!-- From: file:/F:/iTimeDemoAS/iTimeDemo/src/main/res/layout/fragment_group.xml -->

@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/aa/AndroidstudioProjects/iTimeDemo/arcMenuLibrary/src/main/assets"/></dataSet><dataSet config="release"><source path="/Users/aa/AndroidstudioProjects/iTimeDemo/arcMenuLibrary/src/release/assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="F:\iTimeDemoAS\arcMenuLibrary\src\main\assets"/></dataSet><dataSet config="release"><source path="F:\iTimeDemoAS\arcMenuLibrary\src\release\assets"/></dataSet></merger>

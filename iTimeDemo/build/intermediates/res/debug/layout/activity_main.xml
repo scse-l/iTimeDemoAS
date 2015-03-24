@@ -18,8 +18,9 @@
     <com.capricorn.ArcMenu
         android:id="@+id/arc_menu"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom">
     </com.capricorn.ArcMenu>
 
 </FrameLayout>
-<!-- From: file:/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/src/main/res/layout/activity_main.xml -->
+<!-- From: file:/F:/iTimeDemoAS/iTimeDemo/src/main/res/layout/activity_main.xml -->

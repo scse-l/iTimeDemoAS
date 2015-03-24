@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/build/intermediates/exploded-aar/iTimeDemo/arcMenuLibrary/unspecified/res/values/values.xml -->
+    <!-- From: file:/F:/iTimeDemoAS/iTimeDemo/build/intermediates/exploded-aar/iTimeDemoAS/arcMenuLibrary/unspecified/res/values/values.xml -->
     <eat-comment/>
     <attr format="dimension|reference" name="childSize"/>
-    <!-- From: file:/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/iTimeDemoAS/iTimeDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
-    <!-- From: file:/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/build/intermediates/exploded-aar/iTimeDemo/arcMenuLibrary/unspecified/res/values/values.xml -->
+    <!-- From: file:/F:/iTimeDemoAS/iTimeDemo/build/intermediates/exploded-aar/iTimeDemoAS/arcMenuLibrary/unspecified/res/values/values.xml -->
     <eat-comment/>
     <attr format="float|reference" name="fromDegrees"/>
-    <!-- From: file:/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/iTimeDemoAS/iTimeDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
     <attr format="string" name="title"/>
-    <!-- From: file:/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/build/intermediates/exploded-aar/iTimeDemo/arcMenuLibrary/unspecified/res/values/values.xml -->
+    <!-- From: file:/F:/iTimeDemoAS/iTimeDemo/build/intermediates/exploded-aar/iTimeDemoAS/arcMenuLibrary/unspecified/res/values/values.xml -->
     <eat-comment/>
     <attr format="float|reference" name="toDegrees"/>
-    <!-- From: file:/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/iTimeDemoAS/iTimeDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <bool name="abc_action_bar_embed_tabs">true</bool>
     <bool name="abc_action_bar_embed_tabs_pre_jb">false</bool>
@@ -170,7 +170,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/src/main/res/values/strings.xml -->
+    <!-- From: file:/F:/iTimeDemoAS/iTimeDemo/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">iTimeDemo</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -181,7 +181,7 @@
     <string name="this_is_3rd_page">这是第三页</string>
     <string name="this_is_4th_page">这是第四页</string>
     <string name="title_activity_add_activity">AddActivityActivity</string>
-    <!-- From: file:/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/src/main/res/values/styles.xml -->
+    <!-- From: file:/F:/iTimeDemoAS/iTimeDemo/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
         <!--
@@ -193,7 +193,7 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    <!-- From: file:/Users/aa/AndroidstudioProjects/iTimeDemo/iTimeDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/F:/iTimeDemoAS/iTimeDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance">
         <item name="android:textColor">?android:textColorPrimary</item>
